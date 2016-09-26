@@ -1,5 +1,4 @@
-<!--A Design by W3layouts
-Author: W3layout
+<!--Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
@@ -8,818 +7,1422 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>Viet IoT and Analytics Collaboration Network | Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="css/imgeffect.css" />
-<script src="js/jquery.min.js"></script>
-<!-- start gallery Script -->
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>	
-	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-				<script type="text/javascript">
-				$(function () {
-					
-					var filterList = {
-					
-						init: function () {
-						
-							// MixItUp plugin
-							// http://mixitup.io
-							$('#portfoliolist').mixitup({
-								targetSelector: '.portfolio',
-								filterSelector: '.filter',
-								effects: ['fade'],
-								easing: 'snap',
-								// call the hover effect
-								onMixEnd: filterList.hoverEffect()
-							});				
-						
-						},
-						
-						hoverEffect: function () {
-						
-							// Simple parallax effect
-							$('#portfoliolist .portfolio').hover(
-								function () {
-									$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-									$(this).find('img').stop().animate({top: 0}, 500, 'easeOutQuad');				
-								},
-								function () {
-									$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeInQuad');
-									$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-								}		
-							);				
-						
-						}
-			
-					};
-					
-					// Run the show!
-					filterList.init();
-					
-					
-				});	
-				</script>
-				<!-- Add fancyBox main JS and CSS files -->
-				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-				<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-						<script>
-							$(document).ready(function() {
-								$('.popup-with-zoom-anim').magnificPopup({
-									type: 'inline',
-									fixedContentPos: false,
-									fixedBgPos: true,
-									overflowY: 'auto',
-									closeBtnInside: true,
-									preloader: false,
-									midClick: true,
-									removalDelay: 300,
-									mainClass: 'my-mfp-zoom-in'
-							});
-						});
-						</script>
-				<script type="text/javascript" src="js/move-top.js"></script>
-				<script type="text/javascript" src="js/easing.js"></script>
-				<!----end gallery----------->
-				
-		   	<script type="text/javascript">
-				jQuery(document).ready(function($) {
-					$(".scroll").click(function(event){		
-						event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-					});
+<meta name="keywords" content="Coaching Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<link href='//fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<!--google fonts-->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
-			</script>
+			});
+</script>
+<!-- //end-smoth-scrolling -->
+<!-- animated-css -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+<!-- animated-css -->
+<script src="js/bootstrap.min.js"></script>
+<link href="css/galleryeffect.css" rel="stylesheet" type="text/css" media="all" />
+
 </head>
-
 <body>
-		<!----start-header----------->
-				<div class="header_bg">
-					<div class="wrap">
-						<div class="header">
-							<!--------start-logo------>
-							<div class="logo">
-								<a href="index.html"><!--img src="images/logo.png" alt="" /--></a>
-							</div>	
-							<!--------end-logo--------->
-							<!----start-nav-------->	
-							<div class="nav">
-								<ul>
-								   <li><a href="#home" class="scroll">Home</a></li>
-								   <li><a href="#portfolio" class="scroll">Overview</a></li>
-								   <li><a href="#management" class="scroll">Coordination</a></li>
-								   <li><a href="#about" class="scroll">Founders</a></li>
-								   <li><a href="#member" class="scroll">Network Members</a></li>
-								   <li><a href="#sponsor" class="scroll">Sponsors</a></li>
-								   <li><a href="#contact" class="scroll">Contact</a></li>
-								   <li class="active"><a href="">Tiếng Việt</a></li>
-								 <div class="clear"> </div>
-								 </ul>
-							</div>
-							<!-----end-nav-------->
-							<div class="clear"> </div>
-						</div>
-					</div>
-				</div>
-		<!------end-header------------>
-		<!-- start slider -->
-<div class="slider_bg">
-		<div class="wrap">
-				<!---start-da-slider----->
-						<div class="da-slide">
-								<h2><span>Viet IoT and Analytics Collaboration Network</h2>
-									<p></p>
-									<!--a href="#" class="da-link">Tìm hiểu thêm</a-->
-									<a href="#portfolio" class="scroll"><span class="da-img"> </span> </a>
-								</div>
-				<!---//End-da-slider----->
-		</div>
-</div>
-<!-----end-slider-------->
-<!--start portfolio------>
-	<div class="wrap" id="portfolio">
-				<div class="main">
-					<!-- start gallery  -->
-							<div class="gallery1">
-					<!--start-mfp -->	
-						<div id="small-dialog1" class="mfp-hide">
-							<div class="pop_up">
-								<h2>Lorem ipsum sit amet</h2>
-								<img src="images/icon1.png" alt=""/>
-								<p class="para">
-								</p>
-							</div>
-						</div>
-					<!--end-mfp -->	
-			<!---start-content----->
-			<div class="gallery">
-					<div class="clear"> </div>
-					<div class="container">
-						<h2>Overview</h2>
-						We are a group of Viet university researchers, freelancers, and companies with a common interest on smart solutions based on IoT and Data Analytics for  different application domains in Vietnam. We establish this collaboration network in order to foster joint effort between academics and industries in the development of IoT solutions.
-						
-<h2>VitalConet Charter</h2>
-Our collaboration network is operated in the basis of volunteering effort. We create an ecosystem for different stakeholders to exchange ideas and enable them to collaborate. Intellectual Properties associated with a particular research and development work are established through a multual agreement among involved parties in the work. <a href="charter.html">See more our charter here</a>
-
-<div class="grid">
-</div>
-<div class="grid">
-<div class="desc">
-<h3>Research and Development</h3>
-<br>
-Currently, we focus on IoT solutions for smart cities and smart agricultures in Vietnam. Some concrete joint research activities at the moment are: 
-<ul>
-<li> + <span class="filter active"><a href="http://dungcao.github.io/marsa/">IoT data marketplaces for smart cities</span></a></li>
-<li> + Smart Grain Warehouse Management in Mekong delta</li>
-<li> + <a href="http://haivanuni.github.io/haivan/">Strengthening Critical IoT Software Development and Training in Highly Volatile and Unreliable Environments</a></li>
-</ul>
-</div>
-</div>
-<div class="grid">
-<div class="desc">
-<h3>Working groups</h3>
-<br>
-A working group focuses research activities in a specific area. Current working groups are
-<ul>
-  <li><a href="agrigroup.html">Smart Agriculture</a></li>
-</ul>
-</div>
-</div>
-
-<div class="grid">
-  <div class="desc">
-    <h3>Publications</h3>
-    <br>
-    Several partners from the network have jointly published various types of publications. Publications can be white pages, scenarios, technical briefs and reviwed scientific conferences and journals.  Check the list of  publications: 
-<ol>
-  <li>Tien-Dung Cao, Huu-Hanh Hoang, Hiep Xuan Huynh, Binh-Minh Nguyen, Tran-Vu Pham, Quang Tran-Minh, The-Vu Tran, Hong-Linh Truong, <a href="http://bit.ly/1UPvkgM">IoT Services for Solving Critical Problems in Vietnam: A Research Landscape and Directions</a>, (<a href="http://bit.ly/1UPvkgM">Submitted PDF</a>), IEEE Internet Computing Magazine, 2016.<i>Submitted</i>
-    </li>
-	<li>Tien-Dung Cao, Tran-Vu Pham, Quang-Hieu Vu, Hong-Linh Truong, Duc-Hung Le, Schahram Dustdar <a href="http://dsg.tuwien.ac.at/staff/truong/publications/2016/truong-toit2016.pdf">MARSA: A Marketplace for Realtime Human-Sensing Data</a>, Transactions on Internet Technology, 2016, Accepted</li>
-    <li> Tien-Dung Cao, Hong-Linh Truong, <a href="http://dsg.tuwien.ac.at/staff/truong/publications/2016/truong-aciids2016.pdf">Analyzing and Conceptualizing  Monitoring and Analytics as a Service for Grain Warehouses</a>, 8th Asian Conference on Intelligent Information and Database Systems, (c)Springer-Verlag, 14-16 March 2016, Da Nang, Vietnam</li>
-    </ol>
-  </div>
-</div>
-
-<h2>Events</h2>
-<br>
-People in Vitalconet contribute and/or organize the following events:
-<ul>
-  <li><a href="http://issadw.github.io/">The 2016 International Symposium on IoT Systems, Services and Analytics for Developing Worlds (ISSA-DW2016).</a></li>
-</ul>
-
-					<!--ul id="filters">
-					        <a href="#"><li><span class="filter active">Network Charter</span></li></a>
-						<a href="#"><li><span class="filter active">Research & Development</span></li></a>						
-						<a href="#"><li><span class="filter active">Workshops and Meetups</span></li></a>
-						<a href="#"><li><span class="filter active">Publications</span></li></a>
-					
-					</ul-->
-			</div>
-			
-			<!--div id="portfoliolist">
-			
-			<div class="portfolio logo" data-cat="logo">
-				<div class="portfolio-wrapper">				
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-1">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>		
-				
-			<div class="portfolio app" data-cat="app">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-2">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			<div class="hide">	
-			<div class="portfolio web" data-cat="web">
-				<div class="portfolio-wrapper">						
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-3">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			
-			<div class="portfolio card" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-4">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-				
-			<div class="hide">	
-			<div class="portfolio app" data-cat="app">
-				<div class="portfolio-wrapper">
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-5">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>	
-			<div class="hide">
-			<div class="portfolio card" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-6">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			<div>
-			<div class="portfolio card" data-cat="card">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-7">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>	
-			</div>
-			<div>
-			<div class="portfolio logo" data-cat="logo" id="hide">
-				<div class="portfolio-wrapper">			
-					<a class="popup-with-zoom-anim" href="#small-dialog1">
-						<ul class="ch-grid">
-							<li>
-								<div class="ch-item ch-img-8">
-									<div class="ch-info">
-										<img src="images/zoom-white.png"/>
-										<h3>Example Title</h3>
-										<p><a href="#">Wed Desing</a></p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</a>
-				</div>
-			</div>																																							
-		</div>
-		-->
-		</div>
-	</div><!-- container -->
-	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
-	<script type="text/javascript">$('body').flipLightBox()</script>
-	<div class="clear"> </div>
-	</div>
-	</div>
-	</div>
-</div>
-<!---End-gallery----->
-
-<!-----start-about-------->
-<div class="about" id="management">
-	<div class="wrap">
-	<h2>Coordination</h2>
-	<!--p> Founders:</p-->
-		<div class="about-grids">
-		
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<!--span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span-->
-				<!--img class="post-person" src="images/linh.jpg"-->
-				</div>
-				<div class="desc">
-					<h3>Trương Hồng Lĩnh</h3>
-					<p>Scientific Advisor</p>
-				</div>
-			</div>
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<!--span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="twitter.com/linhsolar"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span-->
-				<!--img class="post-person" src="images/img1.jpg"-->
-				</div>
-				<div class="desc">
-					<h3>Tien-Dung Cao</h3>
-					<p>Research and Development Coordinator</p>
-					
-				</div>
-			</div>		
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<!--span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span-->
-				<!--img class="post-person" src="images/img3.jpg"-->
-				</div>
-				<div class="desc">
-					<h3>Nguyen Huy Hoang</h3>
-					<p>Exploitation Coordinator</p>
-				
-				</div>
-			
-			</div>
-			<div class="clear"> </div>
+<!--banner start here-->
+<div class="banner" id="home">
+	<div class="container">
+		<div class="banner-main wow bounceInDown" data-wow-delay="0.3s">
+	        <h1>Viet IoT and Analytics Collaboration Network</h1>
+	         <span class="bann-line"> </span>
+	         <p> We are a group of Viet university researchers, freelancers, and companies with a common interest on smart solutions based on IoT and Data Analytics for different application domains in Vietnam. We establish this collaboration network in order to foster joint effort between academics and industries in the development of IoT solutions.</p>
+	           <a href="#about" class="scroll"><span class="mover"> </span></a>
 		</div>
 	</div>
 </div>
-<!---------end-about------------->
+<!--banner start here-->
+<!--header start here-->
+	<!-- NAVBAR
+		================================================== -->
+<div class="header">
+	<div class="fixed-header">	
+
+		    <div class="navbar-wrapper">
+		      <div class="container">
+		        <nav class="navbar navbar-inverse navbar-static-top">
+		             <div class="navbar-header">
+			              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			                <span class="sr-only">Toggle navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			              </button>
+			              <div class="logo wow slideInLeft" data-wow-delay="0.3s">
+			                    <a class="navbar-brand" href="index.html"><img src="images/logo-2.png" /></a>
+			              </div>
+			          </div>
+		            <div id="navbar" class="navbar-collapse collapse">
+		            <nav class="cl-effect-1">
+		              <ul class="nav navbar-nav">
+		               <li><a href="#home" class="active scroll">Home</a></li>
+		                <li><a href="#about" class="scroll">About</a></li>
+						<li><a href="#services" class="scroll">Works</a></li>
+						<li><a href="#events" class="scroll">Events</a></li>
+						<li><a href="#team" class="scroll">Coordination</a></li>
+						<li><a href="#members" class="scroll">Members</a></li>
+						<li><a href="#portfolio" class="scroll">Portfolio</a></li>
+						<li><a href="#contact" class="scroll">Contact</a></li>						
+		              </ul>
+		            </nav>
+		            <!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header").addClass("fixed");
+				}else{
+					$(".header").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+
+		            </div>
+		            <div class="clearfix"> </div>
+		             </nav>
+		          </div>
+		           <div class="clearfix"> </div>
+		    </div>
+	 </div>
+</div>
+<!--header end here-->
+<!--about start here-->
 <div class="about" id="about">
-	<div class="wrap">
-	<h2>Members</h2>
-	<!--p> Founders:</p-->
-		<div class="about-grids">
+	<div class="container">
+		<div class="about-main">
+			<div class="about-top wow fadeInDown" data-wow-delay="0.3s">
+				<h2>About</h2>
+				<span class="heading-line"> </span>
+				<p>We are a group of Viet university researchers, freelancers, and companies with a common interest on smart solutions based on IoT and Data Analytics for different application domains in Vietnam. We establish this collaboration network in order to foster joint effort between academics and industries in the development of IoT solutions.</p>
+			</div>
+			<div class="about-bottom">
+				<div class="col-md-6 about-left wow fadeInLeft" data-wow-delay="0.3s">
+					<h4>VitalConet Charter</h4>
+					<p>Our collaboration network is operated in the basis of volunteering effort. We create an ecosystem for different stakeholders to exchange ideas and enable them to collaborate. Intellectual Properties associated with a particular research and development work are established through a multual agreement among involved parties in the work.</p>
+					<div class="about-grid">
+						<div class="about-icon">
+							<a href="#" class="#"> <span class="learn"> </span> </a>
+						</div>
+						<div class="about-text">
+							<h5>VitalConet - Viet IoT and Analytics Collaboration Network</h5>
+							<p>is a virtual group without any legal status. Each member agrees to be legally responsible for its activities carried out in VitalConet context.</p>
+						</div>
+					   <div class="clearfix"> </div>
+					</div>
+					<div class="about-grid">
+						<div class="about-icon">
+							<a href="#" class="#"> <span class="degr"> </span> </a>
+						</div>
+						<div class="about-text">
+							<h5>Research and development</h5>
+							<p>work in VitalConet is based on volunteering effort. Each member agrees to spend its own effort and own fundings to carry out its activities. It is up to the sponsors to decide how they would give their support (fundings or research equipment) to members of VitalConet, based on the member legal status.</p>
+						</div>
+					   <div class="clearfix"> </div>
+					</div>
+					<div class="about-grid">
+						<div class="about-icon">
+							<a href="#" class="#">  <span class="ab-badge"> </span> </a>
+						</div>
+						<div class="about-text">
+							<h5>Intellectual Properties (IPs)</h5>
+							<p>associated with any research and development work are decided by involved parties in the work. It is up to the owner of the IPs to decide how the work would be published and shared (within or outside VitalConet)</p>
+						</div>
+					   <div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right wow fadeInRight" data-wow-delay="0.3s">
+					<img src="images/ab.jpg" class="img-responsive" alt="">
+				</div>
+			   <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--about end here-->
+<!--services start here-->
+<div class="service" id="services">
+	<div class="container">
+		<div class="service-main">
+			<div class="service-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Our Works</h3>
+				<span class="heading-line"> </span>				
+			</div>
+			<div class="services-bottom">
+			   <div class="serice-layer wow fadeInRight" data-wow-delay="0.3s">
+				<div class="col-md-6 services-grid">					
+					<div class="serv-text">
+						<h4>Research and Development</h4>
+						<p>Currently, we focus on IoT solutions for smart cities and smart agricultures in Vietnam. Some concrete joint research activities at the moment are:<br/>
+						+ <a href="http://dungcao.github.io/marsa/">IoT data marketplaces for smart cities</a>;<br/>
+						+ Smart Grain Warehouse Management in Mekong delta;<br/>
+						+ <a href="http://haivanuni.github.io/haivan/">Strengthening Critical IoT Software Development and Training in Highly Volatile and Unreliable Environments</a>.
+						</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 services-grid">					
+					<div class="serv-text">
+						<h4>Working groups</h4>
+						<p>A working group focuses research activities in a specific area. Current working groups are:<br/> 
+						Smart Agriculture
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+		     </div>
+		     <div class="serice-layer wow fadeInLeft" data-wow-delay="0.3s">
+				<div class="col-md-12 services-grid">					
+					<div class="serv-text">
+						<h4>Publications</h4>
+						<p>Several partners from the network have jointly published various types of publications. Publications can be white pages, scenarios, technical briefs and reviwed scientific conferences and journals. Check the list of publications:<br/>
+    + Tien-Dung Cao, Huu-Hanh Hoang, Hiep Xuan Huynh, Binh-Minh Nguyen, Tran-Vu Pham, Quang Tran-Minh, The-Vu Tran, Hong-Linh Truong, <a href="http://bit.ly/1UPvkgM">IoT Services for Solving Critical Problems in Vietnam: A Research Landscape and Directions</a>, <a href="http://bit.ly/1UPvkgM">Submitted PDF</a>, IEEE Internet Computing Magazine, 2016, Submitted<br/>
+	+ Tien-Dung Cao, Tran-Vu Pham, Quang-Hieu Vu, Hong-Linh Truong, Duc-Hung Le, Schahram Dustdar <a href="http://dsg.tuwien.ac.at/staff/truong/publications/2016/truong-toit2016.pdf">MARSA: A Marketplace for Realtime Human-Sensing Data</a>, Transactions on Internet Technology, 2016, Accepted.<br/>
+    + Tien-Dung Cao, Hong-Linh Truong, <a href="http://dsg.tuwien.ac.at/staff/truong/publications/2016/truong-aciids2016.pdf">Analyzing and Conceptualizing  Monitoring and Analytics as a Service for Grain Warehouses</a>, (c)Springer-Verlag, 14-16 March 2016, Da Nang, Vietnam.
+</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>				
+				<div class="clearfix"> </div>
+		     </div>
+		   </div>
+		</div>
+	</div>
+</div>
+<!--services end here-->
+<!--Events start here-->
+<div class="events" id="events">
+	<div class="container">
+		<div class="service-main">
+			<div class="service-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Events</h3>
+				<span class="heading-line"> </span>				
+			</div>
+			<div class="services-bottom">			   
+		     <div class="serice-layer wow fadeInLeft" data-wow-delay="0.3s">
+				<div class="col-md-12 services-grid">					
+					<div class="serv-text">
+						<h4> People in Vitalconet contribute and/or organize the following events: </h4>
+						<p><a href="http://issadw.github.io/">The 2016 International Symposium on IoT Systems, Services and Analytics for Developing Worlds (ISSA-DW2016).</a></p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>				
+				<div class="clearfix"> </div>
+		     </div>
+		   </div>
+		</div>
+	</div>
+</div>
+<!--services end here-->
+<!--team start here-->
+<div class="team" id="team">
+	<div class="container">
+		<div class="team-main">
+			<div class="team-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Coordination</h3>
+				<span class="heading-line"> </span>
+				<p></p>
+			</div>
+			<div class="team-bottom wow fadeInRight" data-wow-delay="0.3s">
+			  <div class="col-md-4 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t1.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Trương Hồng Lĩnh</h3>		          
+			          </div>			          
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Trương Hồng Lĩnh</b><br/>
+							Scientific Advisor
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			        
+			    <!-- end normal -->
+			   </div>
+			  <div class="col-md-4 team-grids">
+			   <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t2.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Tien-Dung Cao</h3>		           	            
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Tien-Dung Cao</b><br/>
+							Research and Development Coordinator
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->		 
+			  </div>
+			  <div class="col-md-4 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t3.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Nguyen Huy Hoang</h3>			       
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Nguyen Huy Hoang</b><br/>
+							Exploitation Coordinator
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>			  
+			</div>
+		</div>
+	</div>
+</div>
+<!--team end here-->
+<!--member start here-->
+<div class="members" id="members">
+	<div class="container">
+		<div class="team-main">		
+			<div class="team-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Members</h3>
+				<span class="heading-line"> </span>
+				<p></p>
+			</div>
+			<div class="team-bottom wow fadeInRight" data-wow-delay="0.3s">
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t1.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Trương Hồng Lĩnh</h3>		          
+			          </div>			          
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Trương Hồng Lĩnh</b><br/>
+							Linh an academic, educator and a consultant for software, services and data engineering analytics in distributed systems. He received a PhD and a Habilitation from TU Wien, Austria. Currently, Linh is a Priv.-Doz. and an Assistant Professor for Service Engineering Analytics at TU Wien. 
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			        
+			    <!-- end normal -->
+			   </div>
+			  <div class="col-md-3 team-grids">
+			   <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t2.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Tien-Dung Cao</h3>		           	            
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Tien-Dung Cao</b><br/>
+							Dung is an assistant professor at Tan Tao University, Vietnam. He received a PhD in Computer Science from University of Bordeaux, France. His research interests are: Data Service Models and Analytics, Applying Internet of Things in Vietnam’s context, Formal testing and Cloud Computing.
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->		 
+			  </div>
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t3.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Hoang Huu Hanh</h3>			       
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Hoang Huu Hanh</b><br/>
+							Assoc. Professor Hanh H. Hoang is Director of Department of International Cooperation and professor in Department of Information Technology, University of Sciences - Hue University, Vietnam since 1996. He received his PhD in Information Systems in Vienna University of Technology, Austria in 2007;
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Nguyen Binh Minh</h3>			       
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Nguyen Binh Minh</b><br/>
+							Minh received Ph.D. in Applied Informatics from Slovak University of Technology, Bratislava, Slovakia in 2013, and MS.c in Information Technology from Tambov State of Technical University, Russia in 2008. He is currently an assistant professor at Hanoi University of Science and Technology, Vietnam.
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>			  
+			</div>
+			<div class="clearfix"> </div>
+			<div class="team-bottom wow fadeInRight" data-wow-delay="0.3s">
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Nguyen Ngoc Binh</h3>		          
+			          </div>			          
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Nguyen Ngoc Binh</b><br/>
+							Mr. Binh is currently the CEO of South Telecom, which is an ICT service provider, focusing on Communication & Collaboration Service, such as VoIP Service, IP PBX, IP Call Center, Voice|Video|Web Conferencing, SMS Brandname, and Clouded SMS.  
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			        
+			    <!-- end normal -->
+			   </div>
+			  <div class="col-md-3 team-grids">
+			   <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Le Trong Khang</h3>		           	            
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Le Trong Khang</b><br/>
+							 DiCentral Vietnam 
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->		 
+			  </div>
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Nguyen Huy Hoang</h3>			       
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Nguyen Huy Hoang</b><br/>
+							TalentMind
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>
+			  <div class="col-md-3 team-grids">
+			    <!-- normal -->
+			    <div class="ih-item circle effect5"><a href="#">
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+			        <div class="info">
+			          <div class="info-back">
+			            <h3>Nguyen Dinh Kien</h3>			       
+			          </div>
+			        </div></a></div>
+			        <div class="team-bottom">
+			        	  <p><b>Nguyen Dinh Kien</b><br/>
+							Magiwan
+							</p>
+			        	  <ul>
+			        	  	<li><a href="#" class="fa"> </a></li>
+			        	  	<li><a href="#" class="tw"> </a></li>
+			        	  	<li><a href="#" class="g"> </a></li>
+			        	  </ul>
+			        </div>
+			    <!-- end normal -->
+			  </div>			  
+			</div>
+		</div>
 		
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<!--span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span-->
-				<!--img class="post-person" src="images/linh.jpg"-->
-				</div>
-				<div class="desc">
-					<h3>Trương Hồng Lĩnh (Founder)</h3>
-					Linh an academic, educator and a consultant for software, services and data engineering analytics 
-					in distributed systems. He received a PhD and a Habilitation from TU Wien, Austria. Currently, 
-					Linh is a Priv.-Doz. and an Assistant Professor for Service Engineering Analytics at TU Wien. His research has been 
-					applied to: Monitoring, Analysis and Optimization Techiques for Programs, Data and Systems; Parallel, Grid and 
-					Cloud Computing, and IoT; Data Service Models and Analytics; Context-aware Computing, Socio-technical 
-					Services Engineering; and Elastic Computing. Furthermore, he is interested in (free) ICT solutions for (under) 
-					developing countries. <a href="http://dsg.tuwien.ac.at/staff/truong/">See his work in detail here.</a> 
-				</div>
-			</div>
-		<!--div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg">
-				</div>
-				<div class="desc">
-					<h3>XYZ</h3>
-					<p>XYZ</p>
-					<p>
-                                        </p>
-				</div>
-			</div-->		
-			<div class="grid">
-				<!--div class="dc_zoom_css"-->
-				<!--span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span-->
-				<!--img class="post-person" src="images/img1.jpg"-->
-				<!--/div-->
-				<div class="desc">
-					<h3>Cao Tiến Dũng (Founder)</h3>					
-					Dung is an assistant professor at Tan Tao University, Vietnam. He received a PhD in Computer Science from University of Bordeaux, France. His research interests are: Data Service Models and Analytics, Applying Internet of Things in Vietnam’s context, Formal testing and Cloud Computing. <a href="http://www.dungcao.com/home"> Check his profile here</a>.
-                </div>
-			</div>
+	</div>
+</div>
+<!--member end here-->
+<!--services strip-->
+<div class="ser-strip">
+	<div class="container">
+		<div class="ser-strip-main wow fadeInDown" data-wow-delay="0.3s">
+			 <h3>Do You Like Our Work</h3>
+			 <a href="#contact" class="scroll">Get Touch</a>
+		</div>
+	</div>
+</div>
+<!-- services strip end here-->
+<!--gallery-->
+<div class="portfolio" id="portfolio">
+   <div class="container">
+	  <div class="portfolio-top wow fadeInDown" data-wow-delay="0.3s">
+			    <h3>Portfolio</h3>
+				<span class="heading-line"> </span>
+				<p></p>
+		</div>	
+		<div class="sap_tabs">
 			
-			<div class="grid">
-				<div class="desc">
-					<h3>Nguyen Binh Minh</h3>
-					Minh received Ph.D. in Applied Informatics from Slovak University of Technology, Bratislava, Slovakia in 2013, and MS.c in Information Technology from Tambov State of Technical University, Russia in 2008. He is currently an assistant professor at Hanoi University of Science and Technology, Vietnam. His research interests including cloud computing, elastic computing, software-defined system in IoT, data management and analytic.
-					<a href="http://is.hust.edu.vn/~minhnb/"> See his works in detail here</a>.
-					
-				</div>
-			
-			</div>
-			
-			<div class="grid">
-				<div class="desc">
-					<h3>Hoang Huu Hanh</h3>
-					Assoc. Professor Hanh H. Hoang is Director of Department of International Cooperation and professor in Department of Information Technology, University of Sciences - Hue University, Vietnam since 1996. He received his PhD in Information Systems in Vienna University of Technology, Austria in 2007; MSc in IT in Hanoi University of Technology and BSc in Math and Informatics in Hue University. In 2012, he has received his Associate Professorship by the State Council for Professor Title.  
-					Prof Hoang was appointed as Deputy Director of Department of Science and Technology, Hue University from July 2008 to January 2010. Since January 15, 2010, he has been promoted to the position of Director of Department of International Cooperation. He has been appointed as Head of Semantic Web Research Lab of Hue University. Prof Hoang is also a member of Hue University Science and Training Council, term 2011-2016.
-					Prof Hoang has published several peer-reviewed papers and articles in international journals and conferences. His current research focal areas include the Semantic Web and ontological engineering, Personal Digital Memories, Personal Information Management Systems, Business Processes Modeling, Business Intelligence, Knowledge Discovery, Linked Data and (Semantic-) Web Services. He was author and co-author of four books published in Vietnamese.
-
-				</div>
-			</div>
-			
-			<div class="grid">
+						 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Category</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Category1</span></li>
+							 <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Category2</span></li>
+							  <div class="clearfix"> </div>
+						  </ul>				  	 
+							<div class="resp-tabs-container">
+							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+									<div class="tab_img">
+									  <div class="col-md-3 img-top ">
+					   		  			   <div class="gal-one">
+												<a href="#image-1">
+													<figure class="effect-apollo">
+														<img src="images/p1.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>			
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-1">
+															<img src="images/p1.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															  <div class="clearfix"> </div>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-2">
+													<figure class="effect-apollo">
+														<img src="images/p2.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>			
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-2">
+															<img src="images/p2.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-3">
+													<figure class="effect-apollo">
+														<img src="images/p3.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>			
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-3">
+															<img src="images/p3.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-4">
+													<figure class="effect-apollo">
+														<img src="images/p4.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-4">
+															<img src="images/p4.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+							     <div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-5">
+													<figure class="effect-apollo">
+														<img src="images/p5.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-5">
+															<img src="images/p5.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-6">
+													<figure class="effect-apollo">
+														<img src="images/p6.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>			
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-6">
+															<img src="images/p6.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-7">
+													<figure class="effect-apollo">
+														<img src="images/p7.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-7">
+															<img src="images/p7.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			     <div class="gal-one">
+												<a href="#image-8">
+													<figure class="effect-apollo">
+														<img src="images/p8.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-8">
+															<img src="images/p8.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+							     <div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-9">
+													<figure class="effect-apollo">
+														<img src="images/p9.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-9">
+															<img src="images/p9.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-10">
+													<figure class="effect-apollo">
+														<img src="images/p10.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-10">
+															<img src="images/p10.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-11">
+													<figure class="effect-apollo">
+														<img src="images/p11.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>			
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-11">
+															<img src="images/p11.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			     <div class="gal-one">
+												<a href="#image-12">
+													<figure class="effect-apollo">
+														<img src="images/p12.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-12">
+															<img src="images/p12.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+									 	        					 
+						  </div>
+							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+								
+							     <div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-13">
+													<figure class="effect-apollo">
+														<img src="images/p13.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-13">
+															<img src="images/p13.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-14">
+													<figure class="effect-apollo">
+														<img src="images/p1.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-14">
+															<img src="images/p1.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-15">
+													<figure class="effect-apollo">
+														<img src="images/p2.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-15">
+															<img src="images/p2.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-16">
+													<figure class="effect-apollo">
+														<img src="images/p3.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-16">
+															<img src="images/p3.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+							     	<div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-17">
+													<figure class="effect-apollo">
+														<img src="images/p4.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-17">
+															<img src="images/p4.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-17">
+													<figure class="effect-apollo">
+														<img src="images/p5.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-18">
+															<img src="images/p5.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-19">
+													<figure class="effect-apollo">
+														<img src="images/p6.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-19">
+															<img src="images/p6.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+									 	        					 
+						  </div>
+						    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+								
+									  <div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-20">
+													<figure class="effect-apollo">
+														<img src="images/p7.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-20">
+															<img src="images/p7.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-21">
+													<figure class="effect-apollo">
+														<img src="images/p8.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-21">
+															<img src="images/p8.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-22">
+													<figure class="effect-apollo">
+														<img src="images/p9.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-22">
+															<img src="images/p9.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+									<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-23">
+													<figure class="effect-apollo">
+														<img src="images/p10.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-23">
+															<img src="images/p10.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+							     	<div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-24">
+													<figure class="effect-apollo">
+														<img src="images/p11.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-24">
+															<img src="images/p11.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-25">
+													<figure class="effect-apollo">
+														<img src="images/p12.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-25">
+															<img src="images/p12.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										
+											<div class="clearfix"> </div>
+							     </div>		        					 
+						  </div>
+						   <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+						   	<div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			  <div class="gal-one">
+												<a href="#image-26">
+													<figure class="effect-apollo">
+														<img src="images/p13.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-26">
+															<img src="images/p13.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-27">
+													<figure class="effect-apollo">
+														<img src="images/p1.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-27">
+															<img src="images/p1.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-28">
+													<figure class="effect-apollo">
+														<img src="images/p2.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-28">
+															<img src="images/p2.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			     <div class="gal-one">
+												<a href="#image-29">
+													<figure class="effect-apollo">
+														<img src="images/p3.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-29">
+															<img src="images/p3.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+							     <div class="tab_img">
+									  <div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-30">
+													<figure class="effect-apollo">
+														<img src="images/p4.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-30">
+															<img src="images/p4.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-31">
+													<figure class="effect-apollo">
+														<img src="images/p5.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-31">
+															<img src="images/p5.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			   <div class="gal-one">
+												<a href="#image-32">
+													<figure class="effect-apollo">
+														<img src="images/p6.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-32">
+															<img src="images/p6.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+										<div class="col-md-3 img-top">
+					   		  			    <div class="gal-one">
+												<a href="#image-33">
+													<figure class="effect-apollo">
+														<img src="images/p7.jpg" alt="image1"  class="img-responsive">
+														<div class="link-top">
+															 <i class="link"> </i>
+														 </div>				
+													</figure>
+												</a>
+													<div class="lb-overlay" id="image-33">
+															<img src="images/p7.jpg" alt="image1" class="img-responsive">
+															<div class="gal-info">							
+																<h3>Coaching</h3>
+																<p>Neque porro quisquam est, qui dolorem ipsum 
+																quia dolor sit amet, consectetur, adipisci velit, 
+																sed quia non numquam.</p>
+															</div>
+															<a href="index.html" class="lb-close">Close</a>
+													</div>
+											</div>
+										</div>
+											<div class="clearfix"> </div>
+							     </div>	
+						   	</div>		
+                  </div>
+             </div>
+         </div>
+    </div>	
+</div>
+<!--gallery-->
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
 				
-				<div class="desc">
-					<h3>Nguyen Ngoc Binh</h3>
-					Mr. Binh is currently the CEO of South Telecom, which is an ICT service provider, focusing on Communication & Collaboration Service, such as VoIP Service, IP PBX, IP Call Center, Voice|Video|Web Conferencing, SMS Brandname, and Clouded SMS. Previously Mr. Binh was a VP of CMC Telecom and a VP of Lac Viet Computing. He will bring his over 15 years experience in telecommunications and software development for the development to support VitalConet
-				</div>
-			</div>		
-	
-			
-
-			<div class="grid">
-				<div class="desc">
-					<h3>Le Trong Khang</h3>
-					DiCentral Vietnam
-				</div>
-			
-			</div>
-
-			<div class="grid">
-				<div class="desc">
-					<h3>Nguyen Huy Hoang</h3>
-					TalentMind
-				</div>
-			</div>
-			
-			<div class="grid">
-				<div class="desc">
-					<h3>Nguyen Dinh Kien</h3>
-					Magiwan
-				</div>
-			</div>
-			
-			<div class="clear"> </div>
-		</div>
-	</div>
-</div>
-<!---------end-about------------->
-
-<div class="about" id="members">
-	<!--div class="wrap">
-	<h2>Network Members</h2>
-	<p>Core members:</p>
-		<div class="about-grids">
-		
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg">
-				</div>
-				<div class="desc">
-					<h3>Smavin</h3>
-					<p>a research and consulting group</p>
-					<p>
-                                        </p>
-				</div>
-			</div>
-			
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg">
-				</div>
-				<div class="desc">
-					<h3>XYZ</h3>
-					<p>A university research lab</p>
-					<p>ABC
-                                        </p>
-				</div>
-			</div>
-			
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/linh.jpg">
-				</div>
-				<div class="desc">
-					<h3>Trương Hồng Lĩnh</h3>
-					<p>Academic and Consultant</p>
-					<p>
-                                        </p>
-				</div>
-			</div>
-			
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img3.jpg">
-				</div>
-				<div class="desc">
-					<h3>TalentMind</h3>
-					<p>Company</p>
-					<p></p>
-				</div>
-			</div>
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img3.jpg">
-				</div>
-				<div class="desc">
-					<h3>DiCentral Vietnam</h3>
-					<p>Company</p>
-					<p>Le Trong Khang</p>
-				</div>
-			</div>
-			
-			<div class="clear"> </div>
-		</div>
-	</div-->
-</div>
-<!---------end-member------------->
-<!-- Sponsors -->
-<div class="about" id="sponsors">
-	<!--div class="wrap">
-	<h2>Sponsors</h2>
-	<p>Our research is partially sponsored by </p>
-		<div class="about-grids">
-		
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg">
-				</div>
-				<div class="desc">
-					<h3>Company A</h3>				
-				</div>
-			</div>
-			
-			<div class="grid">
-				<div class="dc_zoom_css">
-				<span class="roll_css6">
-					<div class="social">
-						<ul>
-							<li><a class="sharefacebook" href="#"> </a> </li>
-							<li><a class="sharetwitter" href="#"> </a> </li>
-							<li><a class="sharetgoogle" href="#"> </a> </li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-				</span>
-				<img class="post-person" src="images/img1.jpg>
-				</div>
-				<div class="desc">
-					<h3>Funding Agency B</h3>
-				</div>
-			</div>
-						
-			<div class="clear"> </div>
-		</div>
-	</div-->
-</div>
+</script>
+<!--contact start here-->
 <div class="contact" id="contact">
-	<div class="wrap">
-		<h2>Contact</h2>
-		<h4>Please contact us by following options:</h4>
-		<div class="section group">
-			  <!--div class="col span_2_of_3">
-				  <div class="contact-form">
-				  	  <form method="post" action="#">
-					    	
-					    		<input type="text" class="textbox" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your  Name';}">
-						    	<input type="text" class="textbox" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}">
-						    	<div class="clear"> </div>
-						   
-						    <div>
-						    	<textarea value="Your Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}">Your Message...</textarea>
-						    </div>
-						  <span><input type="submit" class="" value="Submit"></span>
-						  <div class="clear"></div>
-					    </form>
-				  </div>
-  				</div-->
-				<div class="col span_1_of_3">
-					<div class="company_address">
-				     	<h5>Information</h5>
-						<ul class="list3">						
-							<li>
-								<img src="images/mail.png" alt=""/>
-								<div class="extra-wrap">
-								  <p> Hong-Linh Truong: <a href="mailto:linhsolar@gmail.com">linhsolar at gmail.com</a></p>
-								  <p>Tien-Dung Cao: <a href="mailto:ctdung258@gmail.com">ctdung258 at gmail.com</a></p>
-								</div>
-								<div class="clear"> </div>
-							</li>
-<li>
-								<img src="images/social-icons" alt=""/>
-								<div class="extra-wrap">
-<a href="https://twitter.com/vitalconet" class="twitter-follow-button" data-show-count="false">Follow vitalconet@twitter</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-								</div>
-								<div class="clear"> </div>
-							</li>
-						</ul>
-				   </div>
-				 </div>
-				 <div class="clear"></div>
-			  </div>
-			  </div>
-     	</div>
-     <div class="footer-bottom">
-     	<div class="wrap">
-        <div class="copy">
-		    <p class="copy">&#169 2015 - 2016 Viet IoT and Analytics Collaboration Network (Template by  <a href="http://w3layouts.com" target="_blank">w3layouts)</a> </p>
-		</div>
-		<script type="text/javascript">
-							$(document).ready(function() {
-								
-								var defaults = {
-						  			containerID: 'toTop', // fading element id
-									containerHoverID: 'toTopHover', // fading element hover id
-									scrollSpeed: 1200,
-									easingType: 'linear' 
-						 		};
-								
-								
-								$().UItoTop({ easingType: 'easeOutQuart' });
-								
-							});
-						</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
-		 <script src="js/jquery.scrollTo.js"></script>
+	<div class="container">
+		<div class="contact-main">
+			<div class="contact-top wow fadeInDown" data-wow-delay="0.3s">
+				<h3>Say Hello</h3>
+				<span class="heading-line"> </span>
+				<p></p>
+			</div>
+			<div class="contact-bottom">
+				<div class="col-md-6 contact-left wow fadeInLeft" data-wow-delay="0.3s">
+					<form>
+						<input type="text"  value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						<input type="text"  value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">					
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+						<input type="submit"  value="Send Message">
+					</form>
+				</div>
+				<div class="col-md-6 contact-right wow fadeInRight" data-wow-delay="0.3s">
+					<h4>Contact Info</h4>
+					<p></p>
+					<p></p>
+					<ul>
+			    	<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> </span></li>
+			    	<li><span class="glyphicon glyphicon-phone" aria-hidden="true"> </span></li>			    	
+			    	<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span> <a href="mailto:linhsolar@gmail.com">Hong-Linh Truong: linhsolar at gmail.com</a></li>
+					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span> <a href="mailto:ctdung258@gmail.com">Tien-Dung Cao: ctdung258 at gmail.com</a></li>
+			    </ul>
+
+				</div>
+				 <div class="clearfix"> </div>
+			</div>
 		</div>
 	</div>
+</div>
+<!--contact end here-->
+<!--map start here-->
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750981.3321657106!2d11.102590048907702!3d47.674607786042124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079b259d2a7f%3A0x1012d47bdde4c1af!2sAustria!5e0!3m2!1sen!2s!4v1474470283789" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<!--//map-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<div class="col-md-4 ftr-grid wow zoomIn" data-wow-delay="0.3s">
+				<h3>VitalConet</h3>
+				<span class="ftr-line"> </span>
+				<p>...</p>
+				<p>... </p>
+			</div>
+			<div class="col-md-4 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
+				 <h3>Social Media</h3>
+				 <span class="ftr-line flm"> </span>
+				 <ul >
+				 	<li><a href="#"><span class="fa"> </span></a></li>
+				 	<li><a href="#"><span class="tw"> </span></a></li>
+				 	<li><a href="#"><span class="gmail"> </span></a></li>
+				 </ul>
+			</div>
+			<div class="col-md-4 ftr-grid ftr-rit wow zoomIn" data-wow-delay="0.3s">
+				 <h3>Address</h3>
+				 <span class="ftr-line flr"> </span>
+				 <p>Vienna</p>
+				 <p>Austria</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+<!--copy rights start here-->
+<div class="copy-right">
+	<div class="container">
+		 <div class="copy-rights-main wow zoomIn" data-wow-delay="0.3s">
+    	    <p>© 2016 VitalConet. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+    	 </div>
+    </div>
+    <script type="text/javascript">
+										$(document).ready(function() {
+											/*
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											*/
+											
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</div>
+<!--copy rights end here-->
 </body>
 </html>
+
+  
